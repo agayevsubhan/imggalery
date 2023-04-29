@@ -1,0 +1,26 @@
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: 200ms;
+}
+.divHead {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  
+}
+.imgs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.divHead > img {
+  width: 400px;
+  height: 300px;
+}
+img:hover {
+  transform: scale(1.1);
+}
